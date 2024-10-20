@@ -1,0 +1,57 @@
+*{
+    font-family: "Poppins", sans-serif;
+   
+}
+.topNav{
+    background-color:#CD0B0B;
+}
+
+.topNav a{
+    color: white;
+}
+.navbar-brand{
+    transition: all ease-in-out 250ms;
+}
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus{
+    color: white;
+}
+span{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-from-top {
+    animation: slideInFromTop 1s ease-out forwards;
+  }
+
+  .animate-from-bottom {
+    animation: slideInFromBottom 1s ease-out forwards;
+  }
+

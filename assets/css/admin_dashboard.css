@@ -1,0 +1,106 @@
+.title-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width:940px) {
+    .metrics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+
+
+.metric {
+    background-color: #f2f2f2f2;
+    /* Adjusted to lighter shade for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.title-card {
+    background-color: #fff;
+    /* Adjusted to lighter shade for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.metric-icon {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.metric h3,
+.metric h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    /* Adjust text color for better readability */
+}
+
+.metric p {
+    font-size: 1.5rem;
+    color: #fff;
+    /* Adjust text color for better readability */
+
+}
+
+.mt-queue {
+    background-color: #D89216;
+
+
+}
+
+.mt-show {
+    background-color: #CD0B0B;
+
+}
+
+.mt-served {
+    background-color: #4E9F3D;
+
+}
+
+/* Add this to your existing CSS or create a new section */
+.welcome-container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-header {
+    font-size: 28px;
+    color: #333;
+    /* Adjust text color as needed */
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #555;
+    /* Adjust text color as needed */
+}
