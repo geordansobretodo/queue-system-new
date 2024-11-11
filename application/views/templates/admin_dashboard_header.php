@@ -129,21 +129,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('Admin/cashiers'); ?>"><i class="fas fa-cash-register"></i> Cashier List</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Admin/transaction_management'); ?>"><i class="fas fa-list"></i> Transaction List</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Admin/daily_reports'); ?>"><i class="fas fa-chart-line"></i> Daily Reports</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Admin/customer_details'); ?>"><i class="fas fa-window-restore"></i> Customer Details</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Admin/cashier_metrics'); ?>"><i class="fas fa-book"></i> Cashier Metrics</a>
-                </li>
-
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">

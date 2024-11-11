@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Cashier Dashboard</title>
     <link rel="icon" href="<?php echo base_url('assets/img/sdcafafa.jpg'); ?>">
+    
     <style>
         body {
             background-color: #f8f9fa;
@@ -120,7 +121,7 @@
         <div class="text-center mb-4">
             <div class="d-grid gap-1 d-md-block ms-auto">
                 <button onclick="openMonitor()" target="_blank" class="openDisplayBtn btn">Open Customer Display</button>
-                <a href="<?= base_url('Queue/get_queue'); ?>" target="blank" class="openDisplayBtn btn">Open Queue Registration Page</a>
+                <a href="#" target="blank" class="openDisplayBtn btn">Open Registration Page</a>
             </div>
 
 
@@ -136,24 +137,6 @@
                                     <p hidden>Queue Id: <span id="currentQueueId"></span></p>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <button id="serveNextBtn" class="btn btn-primary btn-action btn-block">
-                                            <i class="fas fa-user-check"></i> Serve Regular
-                                        </button>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <button id="serveNextClaimingBtn" class="btn btn-info btn-action btn-block">
-                                            <i class="fas fa-receipt"></i> Serve Claiming
-                                        </button>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <button id="serveNextPriorityBtn" class="btn btn-warning btn-action btn-block">
-                                            <i class="fas fa-star"></i> Serve Priority
-                                        </button>
-                                    </div>
-
                                     <div class="col-md">
                                         <button id="notifyBtn" class="btn btn-success btn-action btn-block">
                                             <i class="fas fa-bell"></i> Notify
@@ -399,7 +382,7 @@
                     // If checkbox is checked, play audio on the monitor window (if monitor is open)
                     monitor.announceQueueNumber(currentQueueNumber, cashierName);
                 }
-                updatenotifyqueue($('#tableID').val(), $('#queue_table').val());
+                // updatenotifyqueue($('#tableID').val(), $('#queue_table').val());
             }
         }
 
@@ -422,44 +405,10 @@
             var cashierId = '<?php echo $this->session->userdata("id"); ?>';
             $('#notifyBtn').click(function() {
                 playAudio(cashierName);
-                var id = $('#currentQueueId').text(); // Assuming queue number is displayed in the UI
+                var id = $('#currentQueueId').text();
                 var showOnMonitor = $('#showOnMonitor').is(':checked'); // Get the checkbox value
 
-                // Call the playAudio function
-                playAudio(cashierName);
-
-                // Send an AJAX POST request to update the notify_queue column
-                $.post('<?php echo base_url('Cashier/update_notify_status'); ?>', {
-                        id: id,
-                        show_on_monitor: showOnMonitor ? 1 : 0,
-                    }, function(response) {
-                        console.log("Notify status update response:", response);
-                        console.log("Response Type:", typeof response); // Log the type of the response
-
-                        if (response && response.status) { // Check if response and status exist
-                            if (response.status === 'success') {
-                                console.log('Notify status updated successfully.');
-                                $('#successNotifyModal').modal('show'); // Show the success modal
-                            } else if (response.status === 'noop') {
-                                $('#errorNotifiedModal').modal('show'); // Show the "No operation performed" modal
-                            } else if (response.status === 'no_data') {
-                                // If no data is fetched, show the error modal
-                                $('#errorModal').modal('show'); // Show the error modal
-                            } else {
-                                console.error('Error:', response.message || 'Unknown error occurred.');
-                                $('#errorModal').modal('show'); // Show the error modal
-                            }
-                        } else {
-                            console.error('Error: Invalid response format.');
-                            alert('Error: Invalid response format.');
-                            $('#errorModal').modal('show');
-                        }
-                    }, 'json')
-                    .fail(function(xhr, status, error) {
-                        console.error("Error:", error);
-                        console.error("Response Text:", xhr.responseText);
-                        $('#errorModal').modal('show'); // Show the error modal
-                    });
+                // playAudio(cashierName);
             });
         });
 

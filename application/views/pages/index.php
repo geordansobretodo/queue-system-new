@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Queue-ease</title>
+  <title>BQS</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,20 +60,19 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg topNav">
     <div class="container-fluid topNav">
-      <a class="navbar-brand text-white" href="<?= base_url() ?>">Queue Ease</a>
+      <a class="navbar-brand text-white" href="<?= base_url() ?>">Bareng Queueing System</a>
     </div>
 
     </div>
     <a href="<?php echo base_url('Login/admin'); ?>"><button class="btn btn-secondary login-button">Go to Login <br>Page</button></a>
   </nav>
 
-
   <div class="d-flex align-items-center justify-content-center" style="height: 80vh;">
     <div>
-      <h1 class="text-center animate-from-top">Welcome To <span>Queue Ease</span></h1>
-      <p class="text-center animate-from-bottom">"Efficiency in line, your time, our priority."</p>
+      <h1 class="text-center animate-from-top">Welcome To <span>BQS</span></h1>
+      <p class="text-center animate-from-bottom">"TUNGUNUNG yan."</p>
       <div class="text-center animate-from-bottom">
-        <a href="<?= base_url('Queue/get_queue') ?>"><button class="btn btn-secondary">Get Your Queue Ticket</button></a>
+        <a href="<?= base_url('Queue/get_queue') ?>"><button class="btn btn-secondary">Get your queue</button></a>
 
       </div>
     </div>

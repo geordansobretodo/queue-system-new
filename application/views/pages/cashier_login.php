@@ -14,6 +14,7 @@
     <link rel="icon" href="<?= base_url('assets/img/sdcafafa.jpg'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/index.css'); ?>">
     <title>Cashier Login</title>
+    
     <style>
         body {
             background-color: #f2f2f2;
