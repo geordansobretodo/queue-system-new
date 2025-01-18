@@ -14,10 +14,10 @@ class Send_email_Model extends CI_Model
         $config = array(
             'protocol'  => 'smtp',
             'smtp_host' => 'ssl://smtp.gmail.com',
-            'smtp_port' => '465',
+            'smtp_port' => '587',
             'smtp_timeout' => '7',
-            'smtp_user' => 'sdcaqs@sdca.edu.ph',
-            'smtp_pass' => '1q2w3e4r5t',
+            'smtp_user' => 'geordansobretodo@gmail.com',
+            'smtp_pass' => 'holxpqemmmhhgaud',
             'charset' => 'utf-8',
             'newline' => "\r\n",
             'mailtype'  => 'html',
@@ -26,7 +26,7 @@ class Send_email_Model extends CI_Model
 
         $this->email->initialize($config);
         $this->email->set_newline("\r\n");
-        $this->email->from('noreply@sdca.edu.ph', 'QUEUEASE');
+        $this->email->from('noreply@gmail.com', 'QUEUEASE');
         $this->email->to($insertdata['email']); // gmail of RECIPIENT		
         $this->email->subject('Queue Details: ' . $insertdata['queue_number']); // Set email subject
 
@@ -64,10 +64,10 @@ class Send_email_Model extends CI_Model
             $config = array(
                 'protocol'  => 'smtp',
                 'smtp_host' => 'ssl://smtp.gmail.com',
-                'smtp_port' => '465',
+                'smtp_port' => '587',
                 'smtp_timeout' => '7',
-                'smtp_user' => 'sdcaqs@sdca.edu.ph',
-                'smtp_pass' => '1q2w3e4r5t',
+                'smtp_user' => 'geordansobretodo@gmail.com',
+                'smtp_pass' => 'holxpqemmmhhgaud',
                 'charset' => 'utf-8',
                 'newline' => "\r\n",
                 'mailtype'  => 'html',
@@ -75,7 +75,7 @@ class Send_email_Model extends CI_Model
             );
 
             $this->email->initialize($config);
-            $this->email->from('noreply@sdca.edu.ph', 'QUEUEASE');
+            $this->email->from('noreply@gmail.com', 'QUEUEASE');
             $this->email->to($data['email']);
             $this->email->subject('Transaction Complete: ' . $data['queue_number']);
 
@@ -101,8 +101,8 @@ class Send_email_Model extends CI_Model
                 'smtp_host' => 'ssl://smtp.gmail.com',
                 'smtp_port' => '465',
                 'smtp_timeout' => '7',
-                'smtp_user' => 'sdcaqs@sdca.edu.ph',
-                'smtp_pass' => '1q2w3e4r5t',
+                'smtp_user' => 'geordansobretodo@gmail.com',
+                'smtp_pass' => 'holxpqemmmhhgaud',
                 'charset' => 'utf-8',
                 'newline' => "\r\n",
                 'mailtype'  => 'html',
@@ -110,7 +110,7 @@ class Send_email_Model extends CI_Model
             );
 
             $this->email->initialize($config);
-            $this->email->from('noreply@sdca.edu.ph', 'QUEUEASE');
+            $this->email->from('noreply@gmail.com', 'QUEUEASE');
             $this->email->to($data['email']);
             $this->email->subject('Queue Voided: ' . $data['queue_number']);
 
