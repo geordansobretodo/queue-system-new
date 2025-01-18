@@ -13,7 +13,7 @@ class Send_email_Model extends CI_Model
     {
         $config = array(
             'protocol'  => 'smtp',
-            'smtp_host' => 'ssl://smtp.gmail.com',
+            'smtp_host' => 'smtp.gmail.com',
             'smtp_port' => '587',
             'smtp_timeout' => '7',
             'smtp_user' => 'geordansobretodo@gmail.com',
@@ -26,7 +26,7 @@ class Send_email_Model extends CI_Model
 
         $this->email->initialize($config);
         $this->email->set_newline("\r\n");
-        $this->email->from('noreply@gmail.com', 'QUEUEASE');
+        $this->email->from('noreply@gmail.com', 'Automatic Email');
         $this->email->to($insertdata['email']); // gmail of RECIPIENT		
         $this->email->subject('Queue Details: ' . $insertdata['queue_number']); // Set email subject
 
@@ -39,7 +39,7 @@ class Send_email_Model extends CI_Model
         $details['queue_time'] = $insertdata['queue_time'];
         $details['email'] = $insertdata['email'];
 
-        $this->email->message($this->load->view('pages/receipt_email_get_queue', $details, true));;
+        $this->email->message($this->load->view('pages/receipt_email_get_queue', $details, true));
 
         if ($this->email->send()) {
             return true;

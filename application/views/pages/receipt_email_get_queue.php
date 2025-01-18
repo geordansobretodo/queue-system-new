@@ -62,7 +62,7 @@
         <div class="container">
             <h1><img src="https://stdominiccollege.edu.ph/images/sdcalogo.png" style="width:80px;height:auto;" alt="logo-header" border="0"> Notification: Your Appointment</h1>
             <p>Dear Customer, <b><?= htmlspecialchars($name) ?></b></p>
-            <p>Please take note of the Transaction Details. Pay attention as your queue will be called.</p><br>
+            <p>Please take note of the Transaction Details. Pay attention as your queue will be called and is available for only 30min. prior to this notification.</p><br>
             <p>Details of your transaction are as follows:</p>
             <table class="details">
                 <tr>
