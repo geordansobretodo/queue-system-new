@@ -106,7 +106,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    Welcome, <?php echo htmlspecialchars($this->session->userdata('name')); ?> <i class="fas fa-user"></i>
+                    Welcome, <?php echo $this->session->userdata('name'); ?> <i class="fas fa-user"></i>
                 </a>
             </li>
             <li class="nav-item">
