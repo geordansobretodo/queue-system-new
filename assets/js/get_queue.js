@@ -71,7 +71,7 @@ function processQueue(){
         
     // Proceed with form submission
     var url = selectedCustomer.toLowerCase().includes("priority") ? "priority_queue.php" : "regular_queue.php";
-    var baseUrl = "http://localhost/queue-system/Queue/insert_queue/";
+    var baseUrl = "http://localhost/queue-system-new/Queue/insert_queue/";
 
     grecaptcha.ready(function() {
         grecaptcha.execute('6LcHMQUqAAAAAFVuePktntV_NN1C9_mpMsNEWwjr', { action: 'queue_submit' }).then(function(token) {
