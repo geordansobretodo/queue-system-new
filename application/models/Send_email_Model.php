@@ -21,7 +21,8 @@ class Send_email_Model extends CI_Model
             'charset' => 'utf-8',
             'newline' => "\r\n",
             'mailtype'  => 'html',
-            'validation' => true
+            'validation' => true,
+            'smtp_crypto' => 'tls'
         );
 
         $this->email->initialize($config);
