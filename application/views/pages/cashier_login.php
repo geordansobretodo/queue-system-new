@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="icon" href="<?= base_url('assets/img/sdcafafa.jpg'); ?>">
+    <link rel="icon" href="<?= base_url('assets/img/bqslogo1.png'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/index.css'); ?>">
     <title>Cashier Login</title>
     <style>
@@ -31,7 +31,7 @@
         }
 
         .login-container h2 {
-            color: #CD0B0B;
+            color: #2B2D42;
             font-size: 25px;
         }
 
@@ -48,7 +48,7 @@
         }
 
         .login-container .btn-primary {
-            background-color: #CD0B0B;
+            background-color: #2B2D42;
             border: none;
         }
 
@@ -56,7 +56,7 @@
             display: block;
             margin-top: 15px;
             text-align: center;
-            color: #CD0B0B;
+            color: #2B2D42;
         }
     </style>
 </head>
@@ -66,7 +66,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg topNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="<?= site_url(''); ?>">Queue Ease</a>
+            <a class="navbar-brand" href="<?= site_url(''); ?>">Bareng Queue System</a>
         </div>
     </nav>
 

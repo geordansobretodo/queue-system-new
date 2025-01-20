@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background-color: #CD0B0B;
+    background-color: #2B2D42;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -32,14 +32,14 @@ body {
 }
 
 .form-container {
-    background-color: #CD0B0B;
+    background-color: #2B2D42;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-container h2 {
-    color: #CD0B0B;
+    color: #2B2D42;
 }
 
 .form-group {
@@ -47,8 +47,8 @@ body {
 }
 
 .btn-primary {
-    background-color: #CD0B0B;
-    border: 1px solid #CD0B0B;
+    background-color: #2B2D42;
+    border: 1px solid #2B2D42;
 }
 
 .btn-primary:hover {

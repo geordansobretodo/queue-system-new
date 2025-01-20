@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Cashier Dashboard</title>
-    <link rel="icon" href="<?php echo base_url('assets/img/sdcafafa.jpg'); ?>">
+    <link rel="icon" href="<?php echo base_url('assets/img/bqslogo1.png'); ?>">
     <style>
         body {
             background-color: #f8f9fa;
@@ -20,7 +20,7 @@
         }
 
         .navbar {
-            background-color: #CD0B0B;
+            background-color: #2B2D42;
         }
 
         .navbar-brand,
@@ -62,8 +62,8 @@
             width: 100%;
             margin-top: 5px;
             font-size: 12px;
-            background-color: #dc3545;
-            border-color: #dc3545;
+            background-color: #2B2D42;
+            border-color: #2B2D42;
         }
 
         .details-card {
@@ -72,7 +72,7 @@
 
         .openDisplayBtn {
             text-decoration: none;
-            background-color: #CD0B0B;
+            background-color: #2B2D42;
             color: white;
             font-weight: 500;
             transition: all ease-in-out 250ms;

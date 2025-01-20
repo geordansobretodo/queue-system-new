@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stdominiccollege.edu.ph/WEBDOSE/plugins/waitme/waitMe.min.css">
 
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/get_queue.css">
-    <link rel="icon" href="<?= base_url() ?>/assets/img/sdcafafa.jpg">
+    <link rel="icon" href="<?= base_url() ?>/assets/img/bqslogo1.png">
 
     <script src="https://www.google.com/recaptcha/api.js?render=6LcHMQUqAAAAAFVuePktntV_NN1C9_mpMsNEWwjr"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -124,7 +124,7 @@
         <div class="container">
             <div class="p-4 border border-2 border-danger rounded-4">
                 <center>
-                    <img src="<?= base_url() ?>/assets/img/sdcalogo.png" alt="SDCA" class="school-logo">
+                    <img src="<?= base_url() ?>/assets/img/bqslogo1.png" alt="SDCA" class="school-logo">
                     <h1>Get <span class="text-danger">Queue</span></h1>
                     <br>
                     <!-- CustomerDropdown -->
