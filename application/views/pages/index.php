@@ -60,7 +60,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg topNav">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="<?= base_url() ?>">Bareng Queue System</a>
+      <a class="navbar-brand text-white" href="<?= base_url() ?>">Bareng Queueing System</a>
     </div>
 
     </div>
@@ -70,7 +70,7 @@
 
   <div class="d-flex align-items-center justify-content-center" style="height: 80vh;">
     <div>
-      <h1 class="text-center animate-from-top">Welcome To <span>Bareng Queue System</span></h1>
+      <h1 class="text-center animate-from-top">Welcome To <span>Bareng Queueing System</span></h1>
       <p class="text-center animate-from-bottom">"Efficiency in line, your time, our priority."</p>
       <div class="text-center animate-from-bottom">
         <a href="<?= base_url('Queue/get_queue') ?>"><button class="btn btn-secondary">Get Your Queue Ticket</button></a>

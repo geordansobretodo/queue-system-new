@@ -72,7 +72,7 @@
 
         .openDisplayBtn {
             text-decoration: none;
-            background-color: #2B2D42;
+            background-color: #EF2D56;
             color: white;
             font-weight: 500;
             transition: all ease-in-out 250ms;
