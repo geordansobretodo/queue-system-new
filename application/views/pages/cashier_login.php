@@ -66,7 +66,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg topNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="<?= site_url(''); ?>">Queue Ease</a>
+            <a class="navbar-brand" href="<?= site_url(''); ?>">Bareng Queueing System</a>
         </div>
     </nav>
 

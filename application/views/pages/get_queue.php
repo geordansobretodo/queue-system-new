@@ -96,7 +96,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar-content">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Related Platforms</a>
                         <ul class="dropdown-menu shadow">
                             <li><a class="dropdown-item" href="https://stdominiccollege.edu.ph/" target="blank">SDCA Website</a></li>
@@ -104,7 +104,7 @@
                             <li><a class="dropdown-item" href="https://stdominiccollege.edu.ph/sdcap/index.php/Student/Main" target="blank">SDCA Old Portal</a></li>
                             <li><a class="dropdown-item" href="https://stdominiccollege.edu.ph/index.php/research" target="blank">RDO Microsite</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><Q-Ease></Q-Ease></a>

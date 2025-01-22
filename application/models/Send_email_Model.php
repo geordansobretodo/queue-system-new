@@ -76,7 +76,7 @@ class Send_email_Model extends CI_Model
             );
 
             $this->email->initialize($config);
-            $this->email->from('noreply@gmail.com', 'QUEUEASE');
+            $this->email->from('noreply@gmail.com', 'BQS - Bareng Queueing System');
             $this->email->to($data['email']);
             $this->email->subject('Transaction Complete: ' . $data['queue_number']);
 
@@ -111,7 +111,7 @@ class Send_email_Model extends CI_Model
             );
 
             $this->email->initialize($config);
-            $this->email->from('noreply@gmail.com', 'QUEUEASE');
+            $this->email->from('noreply@gmail.com', 'BQS - Bareng Queueing System');
             $this->email->to($data['email']);
             $this->email->subject('Queue Voided: ' . $data['queue_number']);
 
