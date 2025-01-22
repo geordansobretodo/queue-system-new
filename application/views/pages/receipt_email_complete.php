@@ -61,7 +61,7 @@
     <body>
         <div class="container">
             <h1>
-                <img src="https://stdominiccollege.edu.ph/images/sdcalogo.png" alt="logo-header" class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/8832/8832119.png" style="width: 15px;height: auto;" alt="logo-header" class="logo">
                 Notification: Transaction Complete!
             </h1>
             <p>Dear Customer, <b><?= htmlspecialchars($name) ?></b></p>

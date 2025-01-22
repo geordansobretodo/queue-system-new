@@ -64,7 +64,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg topNav">
+    <nav style="background-color: #2B2D42;" class="navbar navbar-expand-lg topNav">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?= site_url(''); ?>">Bareng Queueing System</a>
         </div>

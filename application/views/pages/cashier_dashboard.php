@@ -119,8 +119,8 @@
     <div class="container-fluid">
         <div class="text-center mb-4">
             <div class="d-grid gap-1 d-md-block ms-auto">
-                <button onclick="openMonitor()" target="_blank" class="openDisplayBtn btn">Open Customer Display</button>
-                <a href="<?= base_url('Queue/get_queue'); ?>" target="blank" class="openDisplayBtn btn">Open Queue Registration Page</a>
+                <button style="background-color: #2B2D42;" onclick="openMonitor()" target="_blank" class="openDisplayBtn btn">Open Customer Display</button>
+                <a style="background-color: #2B2D42;" href="<?= base_url('Queue/get_queue'); ?>" target="blank" class="openDisplayBtn btn">Open Queue Registration Page</a>
             </div>
 
 
