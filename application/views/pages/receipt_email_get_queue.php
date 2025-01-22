@@ -60,7 +60,7 @@
     </head>
     <body>
         <div class="container">
-            <h1><img src="https://cdn-icons-png.flaticon.com/128/711/711239.png" style="width: 15px;height:auto;" alt="logo-header" border="0"> Notification: Your Appointment</h1>
+            <h1><img src="https://cdn-icons-png.flaticon.com/128/711/711239.png" style="width: 20px;height:auto;" alt="logo-header" border="0"> Notification: Your Appointment</h1>
             <p>Dear Customer, <b><?= htmlspecialchars($name) ?></b></p>
             <p>Please take note of the Transaction Details. Pay attention as your queue will be called and is available for only 30min. prior to this notification.</p><br>
             <p>Details of your transaction are as follows:</p>

@@ -65,7 +65,7 @@ class Send_email_Model extends CI_Model
             $config = array(
                 'protocol'  => 'smtp',
                 'smtp_host' => 'ssl://smtp.gmail.com',
-                'smtp_port' => '587',
+                'smtp_port' => '465',
                 'smtp_timeout' => '7',
                 'smtp_user' => 'geordansobretodo@gmail.com',
                 'smtp_pass' => 'holxpqemmmhhgaud',
